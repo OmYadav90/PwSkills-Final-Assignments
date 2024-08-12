@@ -1,0 +1,33 @@
+# Thyroid Disease Prediction Using Machine Learning
+## Om Yadav
+### Domain: Healthcare
+### Tech Stack: Python, Machine Learning
+
+## Objective
+To predict thyroid disease using machine learning techniques.
+
+## Dataset
+Contains 3772 entries with 30 features related to thyroid conditions.
+
+## Data Preprocessing
+- Handled missing values and categorical data
+- Techniques used:
+  - KNN Imputer
+  - One-hot encoding
+- Balanced the dataset using:
+  - SMOTENC
+  - RandomOverSampler
+
+## Models Used
+- Logistic Regression
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Random Forest
+
+## Results
+**Best Model:** Random Forest with an accuracy of 99.25%  
+**Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score
+
+## Conclusion
+The Random Forest model performed the best, making it suitable for predicting thyroid disease.
